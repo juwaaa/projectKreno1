@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <style>
+        body{
+        background-image:url("{% static 'C:\Users\60132\PycharmProjects\projectKreno1\zizozi\static\bookingSystem\images\webapp1.jpg' %}")
+        }
+        .my-button {
+        display: inline-block;
+        margin: 5px; /* space between buttons */
+        background: #b06f97; /* background color */
+        color: #333; /* text color */
+        font-size: 1.5em;
+        font-family: ‘Georgia’, serif;
+        font-style: italic;
+        border-radius: 50px; /* rounded corners */
+        padding: 8px 16px; /* space around text */
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        }
+        .my-button:hover {
+        background: #666;
+        color: #c1e1e0;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+<p>Welcome To Grooming Booking System!</p>
+    <div align ='center'>
+    <a class="my-button" href="package/">Package</a><a class="my-button" href="booking/">Admin</a>
+</div>
+</center>
+</body>
+</html>
