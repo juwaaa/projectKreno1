@@ -17,5 +17,5 @@ class NewUserForm(UserCreationForm):
        # user.groups.set([2, 3])
         if commit:
             user.save()
-            user.groups.set([2, 3])
+            user.groups.set([1, 2, 3])
         return user
